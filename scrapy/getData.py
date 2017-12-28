@@ -2,6 +2,7 @@
 import re
 import requests
 import time
+from bs4 import BeautifulSoup
 
 url = 'https://s.taobao.com/search'
 payload = {'q': 'python','s': '1','ie':'utf8'}  #字典传递url参数    
